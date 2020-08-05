@@ -1,0 +1,8 @@
+/Users/omega/Documents/GitHub/SpeedDoesMatter/SpeedDoesMatter.DataAccess/bin/Release/netcoreapp3.1/SpeedDoesMatter.DataAccess.deps.json
+/Users/omega/Documents/GitHub/SpeedDoesMatter/SpeedDoesMatter.DataAccess/bin/Release/netcoreapp3.1/SpeedDoesMatter.DataAccess.dll
+/Users/omega/Documents/GitHub/SpeedDoesMatter/SpeedDoesMatter.DataAccess/bin/Release/netcoreapp3.1/SpeedDoesMatter.DataAccess.pdb
+/Users/omega/Documents/GitHub/SpeedDoesMatter/SpeedDoesMatter.DataAccess/obj/Release/netcoreapp3.1/SpeedDoesMatter.DataAccess.AssemblyInfoInputs.cache
+/Users/omega/Documents/GitHub/SpeedDoesMatter/SpeedDoesMatter.DataAccess/obj/Release/netcoreapp3.1/SpeedDoesMatter.DataAccess.AssemblyInfo.cs
+/Users/omega/Documents/GitHub/SpeedDoesMatter/SpeedDoesMatter.DataAccess/obj/Release/netcoreapp3.1/SpeedDoesMatter.DataAccess.csproj.CoreCompileInputs.cache
+/Users/omega/Documents/GitHub/SpeedDoesMatter/SpeedDoesMatter.DataAccess/obj/Release/netcoreapp3.1/SpeedDoesMatter.DataAccess.dll
+/Users/omega/Documents/GitHub/SpeedDoesMatter/SpeedDoesMatter.DataAccess/obj/Release/netcoreapp3.1/SpeedDoesMatter.DataAccess.pdb

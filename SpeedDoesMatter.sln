@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpeedDoesMatter.DataAccess", "SpeedDoesMatter.DataAccess\SpeedDoesMatter.DataAccess.csproj", "{4336073B-3617-4F22-8538-CEFB3E5D7B62}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpeedDoesMatter", "SpeedDoesMatter\SpeedDoesMatter.csproj", "{CF907F8B-2A66-4AEE-BC76-C5A7CC3C1F96}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4336073B-3617-4F22-8538-CEFB3E5D7B62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4336073B-3617-4F22-8538-CEFB3E5D7B62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4336073B-3617-4F22-8538-CEFB3E5D7B62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4336073B-3617-4F22-8538-CEFB3E5D7B62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF907F8B-2A66-4AEE-BC76-C5A7CC3C1F96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF907F8B-2A66-4AEE-BC76-C5A7CC3C1F96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF907F8B-2A66-4AEE-BC76-C5A7CC3C1F96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF907F8B-2A66-4AEE-BC76-C5A7CC3C1F96}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

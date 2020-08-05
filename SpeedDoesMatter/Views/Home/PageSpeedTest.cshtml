@@ -1,0 +1,43 @@
+﻿@model PageSpeedTestModel
+@{
+    ViewData["Title"] = "PageSpeedTest";
+}
+
+<script src="@Url.Content("~/lib/jquery-validation/dist/jquery.validate.min.js")" type="text/javascript"></script>
+<script src="@Url.Content("~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js")" type="text/javascript"></script>
+@Html.ValidationSummary(true, "Correct The Errors first.")
+@using (Html.BeginForm("Index", "PageSpeedTest", FormMethod.Post))
+
+
+    {
+    <div>
+        <fieldset>
+            <legend>PageSpeed Test</legend>
+            <div>
+                <h3>Add you Website here</h3>
+            </div>
+            <div>
+                @Html.LabelFor(model => model.WebsiteURL, new { @class = "required" })
+            </div>
+
+            <div>
+
+                @Html.TextBoxFor(model => model.WebsiteURL)
+                @Html.ValidationMessageFor(model => model.WebsiteURL)
+                @Html.Raw(ViewBag.Response)
+            </div>
+
+            <br />
+
+
+            <input id="Submit" type="submit" value="Test Speed" />
+            <br /><br />
+
+        </fieldset>
+
+
+    </div>
+
+    }
+
+
