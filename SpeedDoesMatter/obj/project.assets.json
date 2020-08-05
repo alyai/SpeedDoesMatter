@@ -4205,6 +4205,7 @@
       "Microsoft.EntityFrameworkCore.Sqlite >= 3.1.6",
       "Microsoft.EntityFrameworkCore.Sqlite.Core >= 3.1.6",
       "Microsoft.EntityFrameworkCore.Tools >= 3.1.6",
+      "Newtonsoft.Json >= 12.0.3",
       "SpeedDoesMatter.DataAccess >= 1.0.0",
       "System.Data.SQLite >= 1.0.113.1"
     ]
@@ -4287,6 +4288,10 @@
           "Microsoft.EntityFrameworkCore.Tools": {
             "target": "Package",
             "version": "[3.1.6, )"
+          },
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "[12.0.3, )"
           },
           "System.Data.SQLite": {
             "target": "Package",

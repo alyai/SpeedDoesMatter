@@ -9,6 +9,7 @@ using SpeedDoesMatter.DataAccess.Entities;
 using SpeedDoesMatter.DataAccess.Repositories;
 
 using JsonSerializer = System.Text.Json.JsonSerializer;
+using Newtonsoft.Json.Utilities;
 using System.Collections.Generic;
 
 namespace SpeedDoesMatter.Controllers
@@ -63,13 +64,21 @@ namespace SpeedDoesMatter.Controllers
           homeResponseMessage.EnsureSuccessStatusCode();
           var homeValue = await homeResponseMessage.Content.ReadAsStringAsync();
             // Deserialize the response
-          //Newtonsoft.Json.JsonSerializer serializer = new Newtonsoft.Json.JsonSerializer();
-          //var homePageScore = Newtonsoft.Json.JsonConvert.DeserializeObject<PageSpeedTestModel>(homeValue);
+
+          Newtonsoft.Json.JsonSerializer serializer = new Newtonsoft.Json.JsonSerializer();
+          var homePageScore = Newtonsoft.Json.JsonConvert.DeserializeObject<PageSpeedTestModel>(homeValue);
+
+
+            //Newtonsoft.Json.JsonSerializer serializer = new Newtonsoft.Json.JsonSerializer();
+            //var homePageScore = serializer.Deserialize<PageSpeedEntity>(homeValue);
+
+
+            //var homePageScore = Newtonsoft.Json.JsonConvert.DeserializeObject<PageSpeedTestModel>(homeValue);
 
             //var serializer = new JsonSerializer();
             //var homePageScore = serializer.Deserialize<PageSpeedTestModel>(homeValue);
 
-            return View(homeValue);
+            return View(homePageScore);
 
          
 

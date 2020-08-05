@@ -240,3 +240,4 @@
 /Users/omega/Documents/GitHub/SpeedDoesMatter/SpeedDoesMatter/obj/Debug/netcoreapp3.1/Razor/Views/Shared/Error.cshtml.g.cs
 /Users/omega/Documents/GitHub/SpeedDoesMatter/SpeedDoesMatter/obj/Debug/netcoreapp3.1/Razor/Views/PageSpeedTest/Add.cshtml.g.cs
 /Users/omega/Documents/GitHub/SpeedDoesMatter/SpeedDoesMatter/obj/Debug/netcoreapp3.1/Razor/Views/PageSpeedTest/View.cshtml.g.cs
+/Users/omega/Documents/GitHub/SpeedDoesMatter/SpeedDoesMatter/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_PartialView.cshtml.g.cs

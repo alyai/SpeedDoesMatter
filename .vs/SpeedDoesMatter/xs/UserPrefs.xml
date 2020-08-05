@@ -1,15 +1,10 @@
 ﻿<Properties StartupConfiguration="{CF907F8B-2A66-4AEE-BC76-C5A7CC3C1F96}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="SpeedDoesMatter/Views/PageSpeedTest/View.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="SpeedDoesMatter/Controllers/PageSpeedTestController.cs">
     <Files>
-      <File FileName="SpeedDoesMatter/Areas/Identity/Pages/_ViewStart.cshtml" Line="1" Column="1" />
-      <File FileName="SpeedDoesMatter.DataAccess/Entities/PageSpeedTest.cs" Line="20" Column="43" />
+      <File FileName="SpeedDoesMatter/Views/Shared/_Layout.cshtml" Line="45" Column="35" />
+      <File FileName="SpeedDoesMatter/Views/Home/PageSpeedTest.cshtml" Line="39" Column="1" />
       <File FileName="SpeedDoesMatter/Models/PageSpeedTest/PageSpeedTestModel.cs" Line="1" Column="1" />
-      <File FileName="SpeedDoesMatter/Controllers/PageSpeedTestController.cs" Line="37" Column="13" />
-      <File FileName="SpeedDoesMatter.DataAccess/Repositories/PageSpeedTestRepository.cs" Line="42" Column="1" />
-      <File FileName="SpeedDoesMatter.DataAccess/DatabaseContext.cs" Line="25" Column="21" />
-      <File FileName="SpeedDoesMatter/Views/PageSpeedTest/Add.cshtml" Line="16" Column="3" />
-      <File FileName="SpeedDoesMatter/Views/PageSpeedTest/Index.cshtml" Line="1" Column="1" />
-      <File FileName="SpeedDoesMatter/Views/PageSpeedTest/View.cshtml" Line="4" Column="35" />
+      <File FileName="SpeedDoesMatter/Controllers/PageSpeedTestController.cs" Line="66" Column="11" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -21,22 +16,24 @@
                   <Node name="Pages" expanded="True" />
                 </Node>
               </Node>
-              <Node name="Controllers" expanded="True" />
+              <Node name="Controllers" expanded="True">
+                <Node name="PageSpeedTestController.cs" selected="True" />
+              </Node>
               <Node name="Models" expanded="True">
                 <Node name="PageSpeedTest" expanded="True" />
               </Node>
               <Node name="Views" expanded="True">
                 <Node name="Home" expanded="True" />
-                <Node name="PageSpeedTest" expanded="True">
-                  <Node name="View.cshtml" selected="True" />
-                </Node>
+                <Node name="PageSpeedTest" expanded="True" />
                 <Node name="Shared" expanded="True" />
               </Node>
               <Node name="wwwroot" expanded="True">
                 <Node name="css" expanded="True" />
                 <Node name="lib" expanded="True">
                   <Node name="bootstrap" expanded="True">
-                    <Node name="dist" expanded="True" />
+                    <Node name="dist" expanded="True">
+                      <Node name="css" expanded="True" />
+                    </Node>
                   </Node>
                 </Node>
               </Node>
