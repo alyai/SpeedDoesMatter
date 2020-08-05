@@ -20,7 +20,8 @@ namespace SpeedDoesMatter.Models.PageSpeedTest
         [Display(Name = "WebsiteURL")]
         public string WebsiteURL { get; set; }
         public string API_KEY { get; set; }
-
+        
+    
         public int Id { get; set; }
 
         public int PageSpeedTestMobileScore { get; set; }

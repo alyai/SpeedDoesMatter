@@ -12,15 +12,13 @@
     {
     <div>
         <fieldset>
-            <legend>PageSpeed Test</legend>
+
             <div>
-                <h3>Add you Website here</h3>
-            </div>
-            <div>
-                @Html.LabelFor(model => model.WebsiteURL, new { @class = "required" })
+                <h3>Type URL Here</h3>
             </div>
 
             <div>
+
 
                 @Html.TextBoxFor(model => model.WebsiteURL)
                 @Html.ValidationMessageFor(model => model.WebsiteURL)
@@ -29,7 +27,8 @@
 
             <br />
 
-            <input id="Submit" type="submit" class="btn btn-success" value="Test Speed" />
+            <input id="Submit" type="submit" class="btn btn-success" value="Go!" />
+
             <br /><br />
 
         </fieldset>

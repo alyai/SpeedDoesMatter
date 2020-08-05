@@ -1,10 +1,11 @@
 ﻿<Properties StartupConfiguration="{CF907F8B-2A66-4AEE-BC76-C5A7CC3C1F96}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="SpeedDoesMatter/Controllers/PageSpeedTestController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="SpeedDoesMatter/wwwroot/vendor/bootstrap/css/bootstrap.css">
     <Files>
-      <File FileName="SpeedDoesMatter/Views/Shared/_Layout.cshtml" Line="45" Column="35" />
-      <File FileName="SpeedDoesMatter/Views/Home/PageSpeedTest.cshtml" Line="39" Column="1" />
-      <File FileName="SpeedDoesMatter/Models/PageSpeedTest/PageSpeedTestModel.cs" Line="1" Column="1" />
-      <File FileName="SpeedDoesMatter/Controllers/PageSpeedTestController.cs" Line="66" Column="11" />
+      <File FileName="SpeedDoesMatter/Controllers/PageSpeedTestController.cs" Line="47" Column="10" />
+      <File FileName="SpeedDoesMatter/Views/Shared/_Layout.cshtml" Line="64" Column="17" />
+      <File FileName="SpeedDoesMatter/wwwroot/lib/bootstrap/dist/css/bootstrap.css" Line="5136" Column="7" />
+      <File FileName="SpeedDoesMatter/wwwroot/css/site.css" Line="71" Column="10" />
+      <File FileName="SpeedDoesMatter/wwwroot/vendor/bootstrap/css/bootstrap.css" Line="3030" Column="3" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -16,9 +17,8 @@
                   <Node name="Pages" expanded="True" />
                 </Node>
               </Node>
-              <Node name="Controllers" expanded="True">
-                <Node name="PageSpeedTestController.cs" selected="True" />
-              </Node>
+              <Node name="Controllers" expanded="True" />
+              <Node name="Data" expanded="True" />
               <Node name="Models" expanded="True">
                 <Node name="PageSpeedTest" expanded="True" />
               </Node>
@@ -29,10 +29,18 @@
               </Node>
               <Node name="wwwroot" expanded="True">
                 <Node name="css" expanded="True" />
+                <Node name="images" expanded="True" />
                 <Node name="lib" expanded="True">
                   <Node name="bootstrap" expanded="True">
                     <Node name="dist" expanded="True">
                       <Node name="css" expanded="True" />
+                    </Node>
+                  </Node>
+                </Node>
+                <Node name="vendor" expanded="True">
+                  <Node name="bootstrap" expanded="True">
+                    <Node name="css" expanded="True">
+                      <Node name="bootstrap.css" selected="True" />
                     </Node>
                   </Node>
                 </Node>

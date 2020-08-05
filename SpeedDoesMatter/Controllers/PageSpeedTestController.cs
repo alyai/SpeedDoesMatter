@@ -10,6 +10,8 @@ using SpeedDoesMatter.DataAccess.Repositories;
 
 using JsonSerializer = System.Text.Json.JsonSerializer;
 using Newtonsoft.Json.Utilities;
+using Newtonsoft.Json.Converters;
+using Newtonsoft.Json.Serialization;
 using System.Collections.Generic;
 
 namespace SpeedDoesMatter.Controllers
@@ -39,6 +41,7 @@ namespace SpeedDoesMatter.Controllers
             return View();
         }
 
+
         [HttpPost]
         public async Task<ActionResult> Index(PageSpeedTestModel sm)
         {
@@ -48,11 +51,11 @@ namespace SpeedDoesMatter.Controllers
             string API_KEY = "&key=AIzaSyDNuOKUCHAVGzMLEhcbOLIyWFXCwlnB7zU";
 
             string sURL;
-            
+
 
             sURL = "https://pagespeedonline.googleapis.com/pagespeedonline/v5/runPagespeed?category=PERFORMANCE&strategy=MOBILE&url=" + WebsiteURL + API_KEY;
 
-     
+
             //if (ModelState.IsValid)
             // {
 
@@ -60,27 +63,22 @@ namespace SpeedDoesMatter.Controllers
             // try
             // {
 
-          HttpResponseMessage homeResponseMessage = await client.GetAsync(sURL);
-          homeResponseMessage.EnsureSuccessStatusCode();
-          var homeValue = await homeResponseMessage.Content.ReadAsStringAsync();
+            HttpResponseMessage homeResponseMessage = await client.GetAsync(sURL);
+            homeResponseMessage.EnsureSuccessStatusCode();
+            var homeValue = await homeResponseMessage.Content.ReadAsStringAsync();
             // Deserialize the response
 
-          Newtonsoft.Json.JsonSerializer serializer = new Newtonsoft.Json.JsonSerializer();
-          var homePageScore = Newtonsoft.Json.JsonConvert.DeserializeObject<PageSpeedTestModel>(homeValue);
 
 
-            //Newtonsoft.Json.JsonSerializer serializer = new Newtonsoft.Json.JsonSerializer();
-            //var homePageScore = serializer.Deserialize<PageSpeedEntity>(homeValue);
+
+            Newtonsoft.Json.JsonSerializer serializer = new Newtonsoft.Json.JsonSerializer();
+            var homePageScore = Newtonsoft.Json.JsonConvert.DeserializeObject<PageSpeedTestModel>(homeValue);
 
 
-            //var homePageScore = Newtonsoft.Json.JsonConvert.DeserializeObject<PageSpeedTestModel>(homeValue);
-
-            //var serializer = new JsonSerializer();
-            //var homePageScore = serializer.Deserialize<PageSpeedTestModel>(homeValue);
 
             return View(homePageScore);
 
-         
+
 
             //  }
 
@@ -109,21 +107,6 @@ namespace SpeedDoesMatter.Controllers
         }
 
 
-        //public async Task<IActionResult> Index()
-        //{
-        //    // Hit the API
-        //    var client = new HttpClient();
-        //    var homeResponseMessage = await client.GetAsync("https://www.googleapis.com/pagespeedonline/v5/runPagespeed?url=https://comit.org&key=AIzaSyDgxj1QIeA00H0G6grGFpFJDZaMsvVoQE8");
-        //     // Double check that it was successful
-        //    homeResponseMessage.EnsureSuccessStatusCode();
-        //    var homeValue = await homeResponseMessage.Content.ReadAsStringAsync();
-        //
-        //    // Deserialize the response
-        //    //var serializer = new JsonSerializer();
-        //    //var homePageScore = serializer.Deserialize<Welcome>(homeValue);
-        //return View(homeValue);
-        //}
-
     }
 
-    }
+}

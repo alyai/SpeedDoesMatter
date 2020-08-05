@@ -157,6 +157,10 @@
             "System.Data.SQLite": {
               "target": "Package",
               "version": "[1.0.113.1, )"
+            },
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[4.7.2, )"
             }
           },
           "imports": [

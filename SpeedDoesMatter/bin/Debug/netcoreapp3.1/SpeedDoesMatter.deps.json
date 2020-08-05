@@ -36,6 +36,7 @@
           "Newtonsoft.Json": "12.0.3",
           "SpeedDoesMatter.DataAccess": "1.0.0",
           "System.Data.SQLite": "1.0.113.1",
+          "System.Text.Json": "4.7.2",
           "Microsoft.AspNetCore.Antiforgery": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions.Reference": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies": "3.1.0.0",
