@@ -1,15 +1,16 @@
 ﻿<Properties StartupConfiguration="{CF907F8B-2A66-4AEE-BC76-C5A7CC3C1F96}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="SpeedDoesMatter/wwwroot/lib/bootstrap/dist/css/_variables.scss">
+  <MonoDevelop.Ide.Workbench ActiveDocument="SpeedDoesMatter/Views/Shared/Error.cshtml">
     <Files>
-      <File FileName="SpeedDoesMatter/Controllers/PageSpeedTestController.cs" Line="75" Column="108" />
-      <File FileName="SpeedDoesMatter/Views/Shared/_Layout.cshtml" Line="24" Column="53" />
-      <File FileName="SpeedDoesMatter/wwwroot/lib/bootstrap/dist/css/bootstrap.css" Line="10942" Column="28" />
+      <File FileName="SpeedDoesMatter/Controllers/PageSpeedTestController.cs" Line="44" Column="1" />
+      <File FileName="SpeedDoesMatter/Views/Shared/_Layout.cshtml" Line="32" Column="60" />
+      <File FileName="SpeedDoesMatter/wwwroot/lib/bootstrap/dist/css/bootstrap.css" Line="5013" Column="2" />
       <File FileName="SpeedDoesMatter/wwwroot/css/site.css" Line="71" Column="10" />
       <File FileName="SpeedDoesMatter/wwwroot/vendor/bootstrap/css/bootstrap.css" Line="5225" Column="21" />
-      <File FileName="SpeedDoesMatter/Views/Home/PageSpeedTest.cshtml" Line="1" Column="1" />
+      <File FileName="SpeedDoesMatter/Views/Home/PageSpeedTest.cshtml" Line="27" Column="1" />
       <File FileName="SpeedDoesMatter/Views/Home/Index.cshtml" Line="11" Column="8" />
       <File FileName="SpeedDoesMatter/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css" Line="7" Column="46" />
-      <File FileName="SpeedDoesMatter/wwwroot/lib/bootstrap/dist/css/_variables.scss" Line="20" Column="12" />
+      <File FileName="SpeedDoesMatter/wwwroot/lib/bootstrap/dist/css/_variables.scss" Line="33" Column="9" />
+      <File FileName="SpeedDoesMatter/Views/Shared/Error.cshtml" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -29,7 +30,9 @@
               <Node name="Views" expanded="True">
                 <Node name="Home" expanded="True" />
                 <Node name="PageSpeedTest" expanded="True" />
-                <Node name="Shared" expanded="True" />
+                <Node name="Shared" expanded="True">
+                  <Node name="Error.cshtml" selected="True" />
+                </Node>
               </Node>
               <Node name="wwwroot" expanded="True">
                 <Node name="css" expanded="True" />
@@ -39,7 +42,7 @@
                     <Node name="dist" expanded="True">
                       <Node name="css" expanded="True">
                         <Node name="bootstrap.css" expanded="True">
-                          <Node name="bootstrap.min.css" expanded="True" selected="True" />
+                          <Node name="bootstrap.min.css" expanded="True" />
                         </Node>
                         <Node name="bootstrap-grid.css" expanded="True" />
                         <Node name="bootstrap-reboot.css" expanded="True" />

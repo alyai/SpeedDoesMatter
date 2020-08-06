@@ -72,7 +72,7 @@ namespace SpeedDoesMatter.Controllers
 
 
             Newtonsoft.Json.JsonSerializer serializer = new Newtonsoft.Json.JsonSerializer();
-            var homePageScore = Newtonsoft.Json.JsonConvert.DeserializeObject<PageSpeedTestModel>(API_KEY);
+            var homePageScore = Newtonsoft.Json.JsonConvert.DeserializeObject<PageSpeedTestModel>(homeValue);
 
 
 
