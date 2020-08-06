@@ -93,6 +93,18 @@
           "lib/netstandard2.0/Microsoft.AspNetCore.Authentication.Abstractions.dll": {}
         }
       },
+      "Microsoft.AspNetCore.Authentication.Facebook/3.1.6": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/Microsoft.AspNetCore.Authentication.Facebook.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.AspNetCore.Authentication.Facebook.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
       "Microsoft.AspNetCore.Authentication.Google/3.1.6": {
         "type": "package",
         "compile": {
@@ -100,6 +112,30 @@
         },
         "runtime": {
           "lib/netcoreapp3.1/Microsoft.AspNetCore.Authentication.Google.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
+      "Microsoft.AspNetCore.Authentication.MicrosoftAccount/3.1.6": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/Microsoft.AspNetCore.Authentication.MicrosoftAccount.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.AspNetCore.Authentication.MicrosoftAccount.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
+      "Microsoft.AspNetCore.Authentication.Twitter/3.1.6": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/Microsoft.AspNetCore.Authentication.Twitter.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.AspNetCore.Authentication.Twitter.dll": {}
         },
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
@@ -1642,6 +1678,21 @@
         "microsoft.aspnetcore.authentication.abstractions.nuspec"
       ]
     },
+    "Microsoft.AspNetCore.Authentication.Facebook/3.1.6": {
+      "sha512": "Lm45bPWPgBBGfrelsKF0hLYTR5Od/HkZzF0qESARsT2joC2GIMfApahkgN/ve/+6lIV2NfJRiL/bctvShEcmpQ==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.authentication.facebook/3.1.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/netcoreapp3.1/Microsoft.AspNetCore.Authentication.Facebook.dll",
+        "lib/netcoreapp3.1/Microsoft.AspNetCore.Authentication.Facebook.xml",
+        "microsoft.aspnetcore.authentication.facebook.3.1.6.nupkg.sha512",
+        "microsoft.aspnetcore.authentication.facebook.nuspec"
+      ]
+    },
     "Microsoft.AspNetCore.Authentication.Google/3.1.6": {
       "sha512": "JrIuNuQ4i+k4rVP7NIF/9fzYX7Vk1xPxFEMxBGLTuvZTl6YHdIiS5Dj7sDj935ruX47v8VnGBdHp3PeCvvrzqA==",
       "type": "package",
@@ -1655,6 +1706,36 @@
         "lib/netcoreapp3.1/Microsoft.AspNetCore.Authentication.Google.xml",
         "microsoft.aspnetcore.authentication.google.3.1.6.nupkg.sha512",
         "microsoft.aspnetcore.authentication.google.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.Authentication.MicrosoftAccount/3.1.6": {
+      "sha512": "rIYhMJRjh2fUcShg2evxhiJNByvqMkSftzx20YzeXbkbuQokd9encLpGeUEmBDhOmwI4zE+IHebImCAA92vVpg==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.authentication.microsoftaccount/3.1.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/netcoreapp3.1/Microsoft.AspNetCore.Authentication.MicrosoftAccount.dll",
+        "lib/netcoreapp3.1/Microsoft.AspNetCore.Authentication.MicrosoftAccount.xml",
+        "microsoft.aspnetcore.authentication.microsoftaccount.3.1.6.nupkg.sha512",
+        "microsoft.aspnetcore.authentication.microsoftaccount.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.Authentication.Twitter/3.1.6": {
+      "sha512": "vqSz8NLzWh1yNHQybqliGnudDtNIu3zL52yKq1CfQZSM4ry67X/DS8HxMakTPEbfNQzM6vq1U5671nSGD0NUXA==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.authentication.twitter/3.1.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/netcoreapp3.1/Microsoft.AspNetCore.Authentication.Twitter.dll",
+        "lib/netcoreapp3.1/Microsoft.AspNetCore.Authentication.Twitter.xml",
+        "microsoft.aspnetcore.authentication.twitter.3.1.6.nupkg.sha512",
+        "microsoft.aspnetcore.authentication.twitter.nuspec"
       ]
     },
     "Microsoft.AspNetCore.Authorization/2.2.0": {
@@ -4225,7 +4306,10 @@
     ".NETCoreApp,Version=v3.1": [
       "Google.Apis.PagespeedInsights.v5 >= 1.48.0.2030",
       "Microsoft.AspNet.SignalR >= 2.4.1",
+      "Microsoft.AspNetCore.Authentication.Facebook >= 3.1.6",
       "Microsoft.AspNetCore.Authentication.Google >= 3.1.6",
+      "Microsoft.AspNetCore.Authentication.MicrosoftAccount >= 3.1.6",
+      "Microsoft.AspNetCore.Authentication.Twitter >= 3.1.6",
       "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore >= 3.1.6",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 3.1.6",
       "Microsoft.AspNetCore.Identity.UI >= 3.1.6",
@@ -4290,7 +4374,19 @@
             "target": "Package",
             "version": "[2.4.1, )"
           },
+          "Microsoft.AspNetCore.Authentication.Facebook": {
+            "target": "Package",
+            "version": "[3.1.6, )"
+          },
           "Microsoft.AspNetCore.Authentication.Google": {
+            "target": "Package",
+            "version": "[3.1.6, )"
+          },
+          "Microsoft.AspNetCore.Authentication.MicrosoftAccount": {
+            "target": "Package",
+            "version": "[3.1.6, )"
+          },
+          "Microsoft.AspNetCore.Authentication.Twitter": {
             "target": "Package",
             "version": "[3.1.6, )"
           },

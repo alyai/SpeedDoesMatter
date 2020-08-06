@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "GpYunHvmsR9A3LizYqSOzIbGhX0Lo6K62CP8oQHT3EnedULB43VsETK/S1AcpsRn0wRKTIhFBe8i6RQ24Eu6dg==",
+  "dgSpecHash": "i1icBUbEeEefFQc4R8urVdhSriTLG3TMRFUtbSoOV+jRrImrA/QIwWauRO+m7HmG9b2CnRaCkDZ7u7qp4R0Lhg==",
   "success": true,
   "projectFilePath": "/Users/omega/Documents/GitHub/SpeedDoesMatter/SpeedDoesMatter/SpeedDoesMatter.csproj",
   "expectedPackageFiles": [
@@ -11,7 +11,10 @@
     "/Users/omega/.nuget/packages/google.apis.pagespeedinsights.v5/1.48.0.2030/google.apis.pagespeedinsights.v5.1.48.0.2030.nupkg.sha512",
     "/Users/omega/.nuget/packages/microsoft.aspnet.signalr/2.4.1/microsoft.aspnet.signalr.2.4.1.nupkg.sha512",
     "/Users/omega/.nuget/packages/microsoft.aspnetcore.authentication.abstractions/2.2.0/microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
+    "/Users/omega/.nuget/packages/microsoft.aspnetcore.authentication.facebook/3.1.6/microsoft.aspnetcore.authentication.facebook.3.1.6.nupkg.sha512",
     "/Users/omega/.nuget/packages/microsoft.aspnetcore.authentication.google/3.1.6/microsoft.aspnetcore.authentication.google.3.1.6.nupkg.sha512",
+    "/Users/omega/.nuget/packages/microsoft.aspnetcore.authentication.microsoftaccount/3.1.6/microsoft.aspnetcore.authentication.microsoftaccount.3.1.6.nupkg.sha512",
+    "/Users/omega/.nuget/packages/microsoft.aspnetcore.authentication.twitter/3.1.6/microsoft.aspnetcore.authentication.twitter.3.1.6.nupkg.sha512",
     "/Users/omega/.nuget/packages/microsoft.aspnetcore.authorization/2.2.0/microsoft.aspnetcore.authorization.2.2.0.nupkg.sha512",
     "/Users/omega/.nuget/packages/microsoft.aspnetcore.authorization.policy/2.2.0/microsoft.aspnetcore.authorization.policy.2.2.0.nupkg.sha512",
     "/Users/omega/.nuget/packages/microsoft.aspnetcore.connections.abstractions/2.2.0/microsoft.aspnetcore.connections.abstractions.2.2.0.nupkg.sha512",

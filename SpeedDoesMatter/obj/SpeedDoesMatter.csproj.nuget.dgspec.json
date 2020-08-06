@@ -122,7 +122,19 @@
               "target": "Package",
               "version": "[2.4.1, )"
             },
+            "Microsoft.AspNetCore.Authentication.Facebook": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
             "Microsoft.AspNetCore.Authentication.Google": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "Microsoft.AspNetCore.Authentication.MicrosoftAccount": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "Microsoft.AspNetCore.Authentication.Twitter": {
               "target": "Package",
               "version": "[3.1.6, )"
             },
