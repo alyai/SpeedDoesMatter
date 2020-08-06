@@ -15,10 +15,11 @@
 
 <div class="form-group">
     <label class="col-form-label col-form-label-lg" for="inputLarge" style="font-size: 2rem;">How fast does your website load? Check it now!</label>
+    <br /><br />
     @Html.TextBoxFor(model => model.WebsiteURL, new { @id = "WebsiteURL", @class = "form-control form-control-lg", @type = "text", @placeholder = "Enter you web page URL" })
     @Html.ValidationMessageFor(model => model.WebsiteURL)
     @Html.Raw(ViewBag.Response)
-    <br />
+    <br /><br />
     <input id="Submit" type="submit" class="btn btn-success btn-lg" value="Go!" />
     <br /><br />
 </div>

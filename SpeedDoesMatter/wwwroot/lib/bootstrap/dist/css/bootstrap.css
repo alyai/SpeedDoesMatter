@@ -2290,7 +2290,7 @@ select.form-control:focus::-ms-value {
 }
 
 .col-form-label-lg {
-  padding-top: calc(0.5rem + 1px);
+  padding-top: calc(12rem + 6px);
   padding-bottom: calc(0.5rem + 1px);
   font-size: 1.171875rem;
   line-height: 1.5;

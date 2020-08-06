@@ -7,10 +7,14 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <!-- Bootstrap core CSS -->
     <link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
-    
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @RenderSection("Scripts", required: false)
+
 
 </head>
-<body class="text-center">
+<body class="text-center" style="padding-bottom: 1050px;">
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-success">
             <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Speed Does Matter</a>
@@ -32,18 +36,7 @@
                         <a class="nav-link" asp-area="" asp-controller="Home" asp-action="AboutPagespeed">About Pagespeed</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" asp-area="" asp-controller="Home" asp-action="PageSpeedTest">Run PagesSpeed Test</a>
-                    </li>
-
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">More</a>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item" href="#">Action</a>
-                            <a class="dropdown-item" href="#">Another action</a>
-                            <a class="dropdown-item" href="#">Something else here</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Separated link</a>
-                        </div>
+                        <a class="nav-link" asp-area="" asp-controller="Home" asp-action="PageSpeedTest">Run PageSpeed Test</a>
                     </li>
                 </ul>
                 <form class="form-inline my-2 my-lg-0">
@@ -65,9 +58,5 @@
             <p>&copy; 2020 - Speed Does Matter - <a asp-area="" asp-controller="Home" asp-action="Privacy">All rights reserved</a></p>
         </footer>
     </div>
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="~/js/site.js" asp-append-version="true"></script>
-    @RenderSection("Scripts", required: false)
 </body>
 </html>

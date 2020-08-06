@@ -1,16 +1,16 @@
 ﻿<Properties StartupConfiguration="{CF907F8B-2A66-4AEE-BC76-C5A7CC3C1F96}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="SpeedDoesMatter/Views/Shared/Error.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="SpeedDoesMatter/Views/_ViewImports.cshtml">
     <Files>
-      <File FileName="SpeedDoesMatter/Controllers/PageSpeedTestController.cs" Line="44" Column="1" />
-      <File FileName="SpeedDoesMatter/Views/Shared/_Layout.cshtml" Line="32" Column="60" />
-      <File FileName="SpeedDoesMatter/wwwroot/lib/bootstrap/dist/css/bootstrap.css" Line="5013" Column="2" />
-      <File FileName="SpeedDoesMatter/wwwroot/css/site.css" Line="71" Column="10" />
-      <File FileName="SpeedDoesMatter/wwwroot/vendor/bootstrap/css/bootstrap.css" Line="5225" Column="21" />
-      <File FileName="SpeedDoesMatter/Views/Home/PageSpeedTest.cshtml" Line="27" Column="1" />
+      <File FileName="SpeedDoesMatter/Views/Shared/_LoginPartial.cshtml" Line="16" Column="18" />
+      <File FileName="SpeedDoesMatter/Views/Shared/_Layout.cshtml" Line="53" Column="11" />
+      <File FileName="SpeedDoesMatter/Views/Shared/_ValidationScriptsPartial.cshtml" Line="1" Column="1" />
+      <File FileName="SpeedDoesMatter/Areas/Identity/Pages/_ViewStart.cshtml" Line="1" Column="1" />
       <File FileName="SpeedDoesMatter/Views/Home/Index.cshtml" Line="11" Column="8" />
-      <File FileName="SpeedDoesMatter/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css" Line="7" Column="46" />
-      <File FileName="SpeedDoesMatter/wwwroot/lib/bootstrap/dist/css/_variables.scss" Line="33" Column="9" />
-      <File FileName="SpeedDoesMatter/Views/Shared/Error.cshtml" Line="1" Column="1" />
+      <File FileName="SpeedDoesMatter/Views/Home/AboutPagespeed.cshtml" Line="20" Column="1" />
+      <File FileName="SpeedDoesMatter/Views/Home/PageSpeedTest.cshtml" Line="16" Column="21" />
+      <File FileName="SpeedDoesMatter/Views/Home/Privacy.cshtml" Line="7" Column="1" />
+      <File FileName="SpeedDoesMatter/Views/_ViewStart.cshtml" Line="1" Column="1" />
+      <File FileName="SpeedDoesMatter/Views/_ViewImports.cshtml" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -31,7 +31,7 @@
                 <Node name="Home" expanded="True" />
                 <Node name="PageSpeedTest" expanded="True" />
                 <Node name="Shared" expanded="True">
-                  <Node name="Error.cshtml" selected="True" />
+                  <Node name="_LoginPartial.cshtml" selected="True" />
                 </Node>
               </Node>
               <Node name="wwwroot" expanded="True">
