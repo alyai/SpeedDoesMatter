@@ -36,6 +36,8 @@ namespace SpeedDoesMatter
             services.AddRazorPages();
 
             services.AddAuthentication()
+            //.AddTwitter(twitterOptions => { ... })
+            //.AddFacebook(facebookOptions => { ... });
             .AddGoogle(options =>
             {
             IConfigurationSection googleAuthNSection =
@@ -43,7 +45,9 @@ namespace SpeedDoesMatter
 
             options.ClientId = googleAuthNSection["ClientId"];
             options.ClientSecret = googleAuthNSection["ClientSecret"];
-        });
+
+
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

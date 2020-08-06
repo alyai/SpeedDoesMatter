@@ -1,18 +1,13 @@
 ﻿<Properties StartupConfiguration="{CF907F8B-2A66-4AEE-BC76-C5A7CC3C1F96}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="SpeedDoesMatter/Controllers/PageSpeedTestController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="SpeedDoesMatter/Views/Shared/_Layout.cshtml">
     <Files>
-      <File FileName="SpeedDoesMatter/Views/Shared/_LoginPartial.cshtml" Line="28" Column="1" />
-      <File FileName="SpeedDoesMatter/Views/Shared/_Layout.cshtml" Line="19" Column="21" />
-      <File FileName="SpeedDoesMatter/Views/Shared/_ValidationScriptsPartial.cshtml" Line="1" Column="1" />
-      <File FileName="SpeedDoesMatter/Areas/Identity/Pages/_ViewStart.cshtml" Line="1" Column="1" />
-      <File FileName="SpeedDoesMatter/Views/Home/Index.cshtml" Line="1" Column="1" />
-      <File FileName="SpeedDoesMatter/Views/Home/AboutPagespeed.cshtml" Line="20" Column="1" />
-      <File FileName="SpeedDoesMatter/Views/Home/PageSpeedTest.cshtml" Line="16" Column="21" />
-      <File FileName="SpeedDoesMatter/Views/Home/Privacy.cshtml" Line="7" Column="1" />
       <File FileName="SpeedDoesMatter/Views/_ViewStart.cshtml" Line="1" Column="1" />
-      <File FileName="SpeedDoesMatter/Views/_ViewImports.cshtml" Line="1" Column="1" />
-      <File FileName="SpeedDoesMatter/Startup.cs" Line="39" Column="34" />
-      <File FileName="SpeedDoesMatter/Controllers/PageSpeedTestController.cs" Line="95" Column="27" />
+      <File FileName="SpeedDoesMatter/Startup.cs" Line="1" Column="1" />
+      <File FileName="SpeedDoesMatter/Areas/Identity/Pages/_ViewStart.cshtml" Line="1" Column="1" />
+      <File FileName="SpeedDoesMatter/Views/Shared/_LoginPartial.cshtml" Line="13" Column="71" />
+      <File FileName="SpeedDoesMatter/Controllers/HomeController.cs" Line="1" Column="1" />
+      <File FileName="SpeedDoesMatter/Views/Home/Index.cshtml" Line="1" Column="1" />
+      <File FileName="SpeedDoesMatter/Views/Shared/_Layout.cshtml" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -31,32 +26,12 @@
               </Node>
               <Node name="Views" expanded="True">
                 <Node name="Home" expanded="True" />
-                <Node name="PageSpeedTest" expanded="True" />
-                <Node name="Shared" expanded="True" />
+                <Node name="Shared" expanded="True">
+                  <Node name="_Layout.cshtml" selected="True" />
+                </Node>
               </Node>
               <Node name="wwwroot" expanded="True">
                 <Node name="css" expanded="True" />
-                <Node name="images" expanded="True" />
-                <Node name="lib" expanded="True">
-                  <Node name="bootstrap" expanded="True">
-                    <Node name="dist" expanded="True">
-                      <Node name="css" expanded="True">
-                        <Node name="bootstrap.css" expanded="True">
-                          <Node name="bootstrap.min.css" expanded="True" />
-                        </Node>
-                        <Node name="bootstrap-grid.css" expanded="True" />
-                        <Node name="bootstrap-reboot.css" expanded="True" />
-                      </Node>
-                      <Node name="js" expanded="True" />
-                    </Node>
-                  </Node>
-                </Node>
-                <Node name="vendor" expanded="True">
-                  <Node name="animate" expanded="True" />
-                  <Node name="bootstrap" expanded="True">
-                    <Node name="css" expanded="True" />
-                  </Node>
-                </Node>
               </Node>
             </Node>
             <Node name="SpeedDoesMatter.DataAccess" expanded="True">

@@ -242,3 +242,6 @@
 /Users/omega/Documents/GitHub/SpeedDoesMatter/SpeedDoesMatter/obj/Debug/netcoreapp3.1/Razor/Views/PageSpeedTest/View.cshtml.g.cs
 /Users/omega/Documents/GitHub/SpeedDoesMatter/SpeedDoesMatter/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_PartialView.cshtml.g.cs
 /Users/omega/Documents/GitHub/SpeedDoesMatter/SpeedDoesMatter/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Authentication.Google.dll
+/Users/omega/Documents/GitHub/SpeedDoesMatter/SpeedDoesMatter/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Authentication.Facebook.dll
+/Users/omega/Documents/GitHub/SpeedDoesMatter/SpeedDoesMatter/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Authentication.MicrosoftAccount.dll
+/Users/omega/Documents/GitHub/SpeedDoesMatter/SpeedDoesMatter/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Authentication.Twitter.dll

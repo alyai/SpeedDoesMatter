@@ -39,5 +39,6 @@
   <ItemGroup>
     <Folder Include="Models\PageSpeedTest\" />
     <Folder Include="Views\PageSpeedTest\" />
+    <Folder Include="Areas\Identity\Pages\Account\" />
   </ItemGroup>
 </Project>
