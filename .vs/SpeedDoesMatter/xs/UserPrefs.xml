@@ -1,13 +1,9 @@
 ﻿<Properties StartupConfiguration="{CF907F8B-2A66-4AEE-BC76-C5A7CC3C1F96}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="SpeedDoesMatter/Views/Shared/_Layout.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="SpeedDoesMatter/Views/Home/PageSpeedTest.cshtml">
     <Files>
-      <File FileName="SpeedDoesMatter/Views/_ViewStart.cshtml" Line="1" Column="1" />
-      <File FileName="SpeedDoesMatter/Startup.cs" Line="1" Column="1" />
-      <File FileName="SpeedDoesMatter/Areas/Identity/Pages/_ViewStart.cshtml" Line="1" Column="1" />
-      <File FileName="SpeedDoesMatter/Views/Shared/_LoginPartial.cshtml" Line="13" Column="71" />
-      <File FileName="SpeedDoesMatter/Controllers/HomeController.cs" Line="1" Column="1" />
-      <File FileName="SpeedDoesMatter/Views/Home/Index.cshtml" Line="1" Column="1" />
-      <File FileName="SpeedDoesMatter/Views/Shared/_Layout.cshtml" Line="1" Column="1" />
+      <File FileName="SpeedDoesMatter/Controllers/PageSpeedTestController.cs" Line="60" Column="17" />
+      <File FileName="SpeedDoesMatter/Models/PageSpeedTest/PageSpeedTestModel.cs" Line="1" Column="1" />
+      <File FileName="SpeedDoesMatter/Views/Home/PageSpeedTest.cshtml" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -25,10 +21,11 @@
                 <Node name="PageSpeedTest" expanded="True" />
               </Node>
               <Node name="Views" expanded="True">
-                <Node name="Home" expanded="True" />
-                <Node name="Shared" expanded="True">
-                  <Node name="_Layout.cshtml" selected="True" />
+                <Node name="Home" expanded="True">
+                  <Node name="PageSpeedTest.cshtml" selected="True" />
                 </Node>
+                <Node name="PageSpeedTest" expanded="True" />
+                <Node name="Shared" expanded="True" />
               </Node>
               <Node name="wwwroot" expanded="True">
                 <Node name="css" expanded="True" />

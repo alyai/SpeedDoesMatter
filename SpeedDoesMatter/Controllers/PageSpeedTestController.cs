@@ -37,7 +37,7 @@ namespace SpeedDoesMatter.Controllers
             var pagespeedtests = _pagespeedtestRepository.GetPageSpeedTests();
 
             List<PageSpeedTestModel> pagespeedModels = new List<PageSpeedTestModel>();
-            
+
             return View();
         }
 
@@ -71,12 +71,12 @@ namespace SpeedDoesMatter.Controllers
 
 
 
-            Newtonsoft.Json.JsonSerializer serializer = new Newtonsoft.Json.JsonSerializer();
-            var homePageScore = Newtonsoft.Json.JsonConvert.DeserializeObject<PageSpeedTestModel>(homeValue);
+            //Newtonsoft.Json.JsonSerializer serializer = new Newtonsoft.Json.JsonSerializer();
+            //var homePageScore = Newtonsoft.Json.JsonConvert.DeserializeObject<PageSpeedTestModel>(homeValue);
 
 
 
-            return View(homePageScore);
+            return View(homeValue);
 
 
 
